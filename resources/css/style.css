@@ -1,6 +1,33 @@
 html{
   text-align:center;
+  font-family: Helvetica;
+
 }
 .header{
-  background-image: image(./images/the-flatiron-building.png);
+  color: white;
+  font-weight: bold;
+  background-image: url("/Users/maximilianschwartz/Documents/GitHub/Broadway.github.io/images/the-flatiron-building.png");
+  background-size: cover;
+}
+#mainheader{
+  font-size: 70px;
+}
+
+nav{
+  font-size: 18px;
+  color:white;
+}
+
+#process{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#subheader{
+  font-size: 23px;
+}
+
+#footer{
+  font-size: 11px;
+  background-color: dimgray;
 }
